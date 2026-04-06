@@ -101,21 +101,23 @@
 
 
 #nhập vào a,b cho đến khi a, b nguyên dương và a<b thì thôi.tính tổng ccác số nguyên tố trên đoạn a.b
-a=int(input())
-b=int(input())
-tong=0
-while a<=0:
-    a=int(input())
-    b=int(input())
-    while a>=b:
-        a=int(input())
-        b=int(input())
-        if a<b:
-            for i in range(2,int(b**0.5)+1):
-                for n in range(a,b+1):
-                    if n%i==0:
-                        tong=tong+i
-print(tong)
+#=int(input())
+#b=int(input())
+#tong=0
+#while a<=0:
+   # a=int(input())
+   # b=int(input())
+   # while a>=b:
+       # a=int(input())
+      #  b=int(input())
+       # if a<b:
+           # for i in range(2,int(b**0.5)+1):
+             #   for n in range(a,b+1):
+                 #   if n%i==0:
+                     #   tong=tong+i
+#print(tong)
 
-
+về nhà: nhập một số nguyên n (n<=1000). in ra tất cả các số nguyên tố nhỏ hơn or bằng n(dùng sàng eratosthenes)
+nhập một số nguyên n, in ra dãy số nguyên  liên tiếp dài nhất không chứa số nguyên tố nào
+(dãy nào tìm thấy đầu tiên thì in ra)
 
